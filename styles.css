@@ -295,7 +295,7 @@ form input {
   align-items: center;
   font-weight: bold;
   height: 30%;
-  font-size: 36px;
+  font-size: 54px;
 }
 .clock > div {
   position: relative;
@@ -312,7 +312,7 @@ form input {
 .progress-ring__circle {
   transition: 0.5s;
   transform: rotate(-90deg);
-  transform-origin: 90px 90px;
+  transform-origin: 135px 135px;
   stroke: rgb(51, 65, 255);
 }
 
