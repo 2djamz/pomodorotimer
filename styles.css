@@ -360,7 +360,7 @@ footer {
   .spotify {
     position:fixed;
     justify-content: center;
-    bottom:-600px;
+    bottom:-500px;
     padding-left: 20px;
 
   }
