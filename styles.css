@@ -313,7 +313,7 @@ form input {
   transition: 0.5s;
   transform: rotate(-90deg);
   transform-origin: 202.5px 202.5px;
-  stroke: rgb(51, 65, 255);
+  stroke: #FBEAE0;
 }
 
 footer {
