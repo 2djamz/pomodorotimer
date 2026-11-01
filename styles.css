@@ -63,7 +63,7 @@ body2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #bfd187;
+    background: #bfd1e7;
     border-left: 2px solid #4663ac;
     animation: typing 3s steps(10) infinite;
     }
@@ -110,7 +110,7 @@ body.dark {
 }
 
 .label .ball {
-	background-color: #bfd187;
+	background-color: #bfd1e7;
 	border-radius: 50%;
 	position:absolute;
 	top:2px;
@@ -186,7 +186,7 @@ a {
 body {
   height: 100vh;
   padding: 35px;
-  background-color: #bfd187;
+  background-color: #bfd1e7;
   color: #131313;
   font-family: "Montserrat", sans-serif;
 }
@@ -214,7 +214,7 @@ input {
 
 button {
   padding: 9px 25px;
-  background-color:#bfd187;
+  background-color:#bfd1e7;
   border: none;
   border-radius: 50px;
   transition: all 0.3 ease 0s;
@@ -245,28 +245,28 @@ form {
   margin: 5px auto;
 }
 form button {
-  background: #bfd187;
+  background: #bfd1e7;
   width: 100%;
   margin: 5px 0;
   color: white;
 }
 .start {
-  background: #bfd187;
+  background: #bfd1e7;
   color: white;
 }
 .break {
-  background: #bfd187;
+  background: #bfd1e7;
   color: #000000;
 }
 .reset {
-  background: #bfd187;
+  background: #bfd1e7;
   color: #000000;
 }
 .pause {
-  background: #bfd187;
+  background: #bfd1e7;
 }
 .resume {
-  background: #bfd187;
+  background: #bfd1e7;
   color: white;
 }
 .clock {
@@ -501,7 +501,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  background:#bfd187;
+  background:#bfd1e7;
   transition: 0.5s;
 }
 
@@ -548,7 +548,7 @@ body {
   left:0;
   width:100%;
   height:100%;
-  background: #bfd187;
+  background: #bfd1e7;
   transition: transform 0.5s ease-in-out;
   transform: scaleZ(0);
   transform-origin: bottom;
@@ -556,7 +556,7 @@ body {
 
 
 .settingsmenu li {
-  background-color: #bfd187;
+  background-color: #bfd1e7;
   opacity: 60%;
 }
 
@@ -637,7 +637,7 @@ section1 {
   width: 55%;
 
   float: right;
-  background-color: #bfd187;
+  background-color: #bfd1e7;
   padding: 150px;
 
 
@@ -647,7 +647,7 @@ section1 {
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 900;
-  background-color: #bfd187;
+  background-color: #bfd1e7;
   color: #4663ac;
   
 }
@@ -658,7 +658,7 @@ section1 {
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
-  background-color: #bfd187;
+  background-color: #bfd1e7;
  
 }
 
@@ -670,7 +670,7 @@ section1 {
   font-weight: 700;
   font-size: 13px; 
 
-  background-color: #bfd187;
+  background-color: #bfd1e7;
 }
 
 
