@@ -97,6 +97,10 @@ body.dark {
 }
 
 .label {
+  position: fixed;
+  top: 8px;
+  right: 90px;
+  z-index: 10;
 	background-color: #111;
 	border-radius: 50px;
 	cursor: pointer;
@@ -134,9 +138,11 @@ body.dark {
 }
 
 .logo {
-  position:absolute;
-  top:20px;
-  right: 10px;
+  position: fixed;
+  top: 8px;
+  right: 15px;
+  margin: 0;
+  z-index: 10;
 }
 
 
@@ -185,6 +191,7 @@ a {
 
 body {
   height: 100vh;
+  overflow: hidden;
   padding: 35px;
   background-color: #bfd1e7;
   color: #131313;
@@ -370,17 +377,18 @@ footer {
   }
 
 .logo{
-  position:absolute;
-  justify-content: space-evenly;
-  bottom:1px;
-  padding-top: 2px;
+  position: fixed;
+  top: 8px;
+  right: 15px;
+  bottom: auto;
+  padding-top: 0;
 }
 
 .label {
-  position:absolute;
-  top:100%;
-  right:38px;
-  padding-top: 20px;
+  position: fixed;
+  top: 8px;
+  right: 90px;
+  padding-top: 0;
 }
 
 .wrapper {
@@ -400,10 +408,9 @@ footer {
     left:10px;
   }
   .label {
-    position: absolute;
-    float:right;
-    right:100px;
-    top:42px;
+    position: fixed;
+    right: 90px;
+    top: 8px;
     width: 50px;
     transform: scale(1.5);
   }
@@ -418,10 +425,9 @@ footer {
     left:10px;
   }
   .label {
-    position: absolute;
-    float:right;
-    right:100px;
-    top:42px;
+    position: fixed;
+    right: 90px;
+    top: 8px;
     width: 50px;
     transform: scale(1.5);
   }
@@ -590,11 +596,11 @@ color: #4663ac;
 
 .menuicon {
   position:fixed;
-  top:200px;
+  top:20px;
   right:20px;
   width:60px;
   height:60px;
-  background-image: url(menuicon.png);
+  background-image: url(images/menuicon.png);
   background-size:40px;
   cursor: pointer;
   background-repeat: no-repeat;
